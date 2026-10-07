@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","12280","@Web first test","","Mon Sep 28 11:16:50 WAT 2026","passed","Mon Sep 28 11:17:02 WAT 2026","","PlaywriteSpecialSelectors.spec.js","",""
+"","15765","@Web Client app","","Mon Sep 28 11:16:38 WAT 2026","failed","Mon Sep 28 11:16:54 WAT 2026","","EcommerceLoginIMPL.spec.js","",""
+"","12906","@Web first test","","Mon Sep 28 11:16:55 WAT 2026","passed","Mon Sep 28 11:17:08 WAT 2026","","UIBasics.spec.js","",""
+"","10812","@Web popup validations","","Mon Sep 28 11:16:38 WAT 2026","passed","Mon Sep 28 11:16:49 WAT 2026","","MoreValidations.spec.js","",""
