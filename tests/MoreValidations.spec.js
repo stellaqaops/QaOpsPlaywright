@@ -26,10 +26,12 @@ test('@Web popup validations', async ({ page }) => {
     // handling element in invisile mode 
     await framePage.locator(' li a[href="lifetime-access"]:visible').click(); // : visible targets only elements which are visiblemon the page
     await framePage.locator(".text h2").waitFor()
-    const textCheck = await framePage.locator(".text h2").textContent();
+  const textCheck = await framePage.locator(".text h2").textContent();
+  console.log(textCheck)
     const actualText = textCheck.split(" ")[1]
     console.log(actualText)
 })
+
 test('Screenshots and visual testing', async ({page}) => {
   await page.goto("https://rahulshettyacademy.com/AutomationPractice/", {
     waitUntil: "domcontentloaded",
