@@ -19,9 +19,9 @@ jobs:
       uses: azure/login@v3
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS}}
+    - name: Run Playwright tests
       env:
           PLAYWRIGHT_SERVICE_URL: wss://eastus.api.playwright.microsoft.com/playwrightworkspaces/9e60b720-c522-4dd2-8639-782c9a127bf2/browsers
-    - name: Run Playwright tests
       run: npx playwright test --config=playwright.service.config.js --workers=20
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
